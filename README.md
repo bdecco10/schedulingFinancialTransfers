@@ -60,7 +60,7 @@ Usado arquitetura MVC para desacoplamento do codigo e manter legibilidade para f
      
      --Em seguida executar o comando "java -jar finacialSchenduling-0.0.1-SNAPSHOT.jar 15/09/2017 5000 XXXXXX ADD" sem as ""
      
-     --Primeiro paramentro data do agendamento "15/09/2017"
-     --Segundo paramentro valor da tranferencias "5000"
+     --Primeiro parâmetro data do agendamento "15/09/2017"
+     --Segundo parâmetro valor da transferências "5000"
      --Terceiro paramentro conta de destino "XXXXXX"
      --Quarta operação "ADD" adicionar o agendamento ou pode ser FIND buscar a operação cadastrada

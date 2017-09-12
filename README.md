@@ -56,4 +56,13 @@ Usado arquitetura MVC para desacoplamento do codigo e manter legibilidade para f
 
 # Execução:  
    -Executar via maven, (ferramenta de BUILD)
-      --Comando deve ser realizado via linha de comando na pasta onde contempla o .pom: mvn exec:exec
+      --Comando deve ser realizado via linha de comando na pasta onde contempla o .pom: mvn clean install para gerar o .jar
+     
+     --Em seguida executar o comando "java -jar finacialSchenduling-0.0.1-SNAPSHOT.jar 15/09/2017 5000 XXXXXX ADD" sem as ""
+     
+     --1º parâmetro data do agendamento "15/09/2017"
+     --2º parâmetro valor da transferências "5000"
+     --3º paramentro conta de destino "XXXXXX"
+     --4º operação "ADD" adicionar o agendamento ou pode ser FIND buscar a operação cadastrada
+     
+     OBS: Existe um .jar adicional que contempla todas as validações de log (projeto responsavel por tratar execeção), é nescessario referenciar ele no momento da execução do jar "finacialSchenduling-0.0.1-SNAPSHOT.jar" para funcionar o projeto.

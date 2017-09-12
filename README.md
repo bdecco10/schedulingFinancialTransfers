@@ -64,3 +64,5 @@ Usado arquitetura MVC para desacoplamento do codigo e manter legibilidade para f
      --2º parâmetro valor da transferências "5000"
      --3º paramentro conta de destino "XXXXXX"
      --4º operação "ADD" adicionar o agendamento ou pode ser FIND buscar a operação cadastrada
+     
+     OBS: Existe um .jar adicional que contempla todas as validações de log (projeto responsavel por tratar execeção), é nescessario referenciar ele no momento da execução do jar "finacialSchenduling-0.0.1-SNAPSHOT.jar" para funcionar o projeto.
